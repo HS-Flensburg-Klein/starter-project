@@ -7,6 +7,6 @@ let c = 0;
 
 counterButton.addEventListener("click", () => {
     // Simulate a blocking operation for 5000 milliseconds (5 seconds)
-    simulateBlockingOperation(5000);
+    // simulateBlockingOperation(5000);
     counter.textContent = ++c;
 })
