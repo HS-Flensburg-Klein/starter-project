@@ -14,7 +14,8 @@ let ctx = await esbuild.context({
   entryPoints: ['src/app.js'],
   outfile: 'public/app.js',
   bundle: true,
-  target: ["es6"],
+  target: ["es2020"],
+  format: "esm",
   minify: true,
   plugins: [
     copy({
